@@ -1,0 +1,42 @@
+git init
+
+git status
+
+git add .
+
+git commit -m "msg"
+
+git push
+
+touch names.txt -- to create a file
+
+cat names.txt --to show content in file
+
+vim names.txt -- to write data into file
+
+in vim
+:wq -- exit without savving
+:x --exit by saving
+:w --don't exit only save
+:q -- exit if no changes are done
+
+git restore --staged names.txt -->to reomve the staged files
+
+
+git log ---to see the commit history
+
+
+git reset no in the log ---> we need to select the bottom log no to remove the upper log
+
+
+git stash --> to add to backstaage the staged changes
+
+
+git stash pop --> to get back the staged commies
+
+
+git stash clear --> to clear the stashed content permenantly
+
+
+
+
