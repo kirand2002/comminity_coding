@@ -38,5 +38,12 @@ git stash pop --> to get back the staged commies
 git stash clear --> to clear the stashed content permenantly
 
 
+git remote add origin URL --> to connect to the repo in the github
+
+
+git push origin master  --> to push content to the repos
+
+
+
 
 
