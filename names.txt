@@ -44,6 +44,79 @@ git remote add origin URL --> to connect to the repo in the github
 git push origin master  --> to push content to the repos
 
 
+git branch branchname ---> to create the new branch
+
+
+git checkout branchname ---> now the head is pointing to the  branchname you mentioned the changes u done all is made in that branch only they not affect the code in the main
+
+git checkout main --> to make chanes in the main or master branch
+
+
+to merge the sub branch with main branch we use the command 
+
+
+--> git merge branchname
+
+git remote -v --> to find the origin link or repo link in bash and with how many origins it was connected
+
+to make pull request fork the repo and then cody the repo link and then git clone COPIED URL 
+
+To make pull request
+
+git romote add upstream URL OF THE ORGIN REPO WHERE WE FORKED IT 
+
+then create the new branch what are doing and then push them to that branch rather than the main branch
+
+git branch new
+
+git checkout new
+
+then push the chaanges to the your origin rather than the upsterm url
+
+git push origin new
+
+
+for the new pull request new work create the new branch and make the pull request 
+
+git remove the pull request copy log no below log for which u want to remove
+
+git reset URL
+
+git add .
+git stash
+git push origin new -f --> this means i need to force push it because it was updated in the github website
+
+
+to fetch the commits in all branches in the main branch
+
+ git fetch --all --prune (prune means to fetch deleted commits also)
+
+
+ git reset --hard upstream/main (to apply those commits to main branch)
+
+
+ git log
+ 
+ git push origin main 
+
+
+ or
+
+ git pull upstream main (one command is equal to all the above fetch commands)
 
 
 
+ to merge the many commits into one commit 
+
+ git rebase -i THE BELOW LOG URL 
+
+ pick command
+
+ s command 
+
+ s command
+ pick commad 
+
+ the s and s will merged to the above pick command
+
+merge confiltics 
